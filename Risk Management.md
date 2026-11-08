@@ -1,26 +1,48 @@
-# Risk Management  
-# (Designing and implementing a Risk management Strategy)
+# CIS RAM Structured Risk Register
 
-- <b>Risk Assessment</b> 
-- <b>Threat-based Risk</b> 
-- <b>Threat Modeling</b> 
-- <b>OWASP TOP 10 </b> 
-- <b>MITRE ATT&CK Framework</b> 
-- <b>CIS Framework</b> 
+> Enterprise risk management: an inherent-to-residual risk register built on CIS RAM v8 and CIS Controls IG1.
 
-Risk management is the process of identifying, evaluating, and treating potential risks, with the goal of reducing the threats to an organization's digital assets. It's an ongoing process that evolves as new threats emerge and existing threats change.
-The steps of risk management typically include:: 
-- Identify the assets that need protection, determine what threats could impact those assets, and recognize the vulnerabilities that could enable those threats.: 
-- Quantify and evaluate the identified risks. This could involve determining the likelihood of a threat exploiting a vulnerability, as well as the potential impact on the organization. 
-- Compare the analyzed risks against risk criteria that the organization has established. Decide which risks need treatment based on this comparison.: 
-- Decide how to address each high-priority risk. Common responses include accepting the risk, mitigating it (implementing controls to reduce its likelihood or impact), transferring it (e.g., through insurance), or avoiding it (e.g., by not engaging in an activity that causes the risk).: 
-- Regularly monitor and review the risk environment for changes that may affect the analysis and treatment of each risk. This also involves reviewing the effectiveness of the risk treatment measures.
+![Enterprise risk management](https://img.shields.io/badge/Focus-Enterprise%20risk%20management-0f766e) ![CIS RAM v8](https://img.shields.io/badge/Framework-CIS%20RAM%20v8-2b6cb0) ![CIS Controls IG1](https://img.shields.io/badge/Framework-CIS%20Controls%20IG1-2b6cb0)
 
-Risk assessment is a part of the risk management process. It involves identifying the risks to an organization's information assets, and then determining the likelihood and potential impact of those risks. It's the combination of these factors—likelihood and impact—that determines the overall risk.
-Risk assessment typically involves these steps:: 
-- Document the information assets that could be impacted by a cybersecurity event. These could be hardware, software, data, networks, information systems, etc.:
-- Identify potential threats to each asset. Threats could come from many sources, such as hackers, malicious insiders, natural disasters, or unintentional errors from employees.:
-- Identify the weaknesses that could be exploited by each threat. This could involve reviewing system and application configurations, patch levels, use of security controls, etc.:
-  
-For each combination of asset, threat, and vulnerability, estimate the likelihood that the threat will exploit the vulnerability and estimate the potential impact. This helps determine the level of risk.: Prioritize the risks based on their level. This often involves a combination of qualitative and quantitative methods.
-Risk management and risk assessment together form a cyclical process. The risk assessment informs the risk management decisions, and the outcomes of risk management activities feed back into future risk assessments. This ongoing process helps organizations keep up with changes in their risk environment and improve their security posture over time.
+| | |
+| --- | --- |
+| **Focus area** | Enterprise risk management |
+| **Frameworks and standards** | CIS RAM v8, CIS Controls IG1 |
+
+
+## Objective
+
+Replace ad-hoc risk discussion with a structured, repeatable register that lets leadership compare risks, see what remains after controls, and decide where to invest.
+
+## Execution
+
+- I built the register using CIS RAM v8 and CIS Controls IG1, defining risk statements, assets, threats, and likelihood and impact criteria.
+- I scored inherent risk, mapped existing and planned controls, and calculated residual risk for each entry.
+- I defined planned implementations with owners and remediation timelines.
+- I contributed to the executive presentation, framing risk in terms of business impact and recommended treatment: mitigate, accept, transfer or avoid.
+
+## Business outcomes
+
+- Documented risks rated high or critical at inherent level, which fall to lower residual levels once planned controls are in place.
+- Enabled leadership to rank security investment by risk reduction, with top priorities identified for funding.
+- Created a register that can be re-scored on a set cadence instead of rebuilt each time.
+
+## Skills demonstrated
+
+- Risk identification and scoring
+- Inherent vs. residual risk analysis
+- Risk treatment planning
+- Executive risk reporting
+
+
+
+## Deliverables
+
+Risk register showing risk rating from low to critical and risk treatment strategy
+
+<img width="511" height="269" alt="Information Security Risk Register" src="https://github.com/user-attachments/assets/a3e082ff-7b89-4145-9da9-a5cc137aae0a" />
+
+
+*All materials are sanitized and contain no confidential or client data.*
+
+
